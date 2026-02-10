@@ -1,0 +1,109 @@
+/* 
+обратится к классу .header
+
+включить относительное позиционирование
+высота на весь экран
+*/
+.header {
+    position: relative;
+    height: 100vh;
+}
+
+
+
+/* 
+обратится к классу .header__content
+
+вытащить из очереди через абсолютное позиционирование
+все 4 стороны по 0
+
+указать двойной градиент повернутый направо
+размыть фон на 5пик
+
+поставить на 2 слоя выше
+*/
+.header__content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(90deg,
+            rgba(213, 32, 71, 0.5),
+            rgba(238, 61, 27, 0.5));
+    backdrop-filter: blur(5px);
+    z-index: 2;
+}
+
+
+
+/* 
+обратится к классу .header__bg
+
+вытащить из очереди через абсолютное позиционирование
+все 4 стороны по 0
+
+поставить картинку на фон
+поставить на 1 слой выше
+*/
+.header__bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: url("../img/Rectangle 3.png") center/cover no-repeat;
+    z-index: 1;
+}
+
+
+
+/* 
+обратится к классу .header__content
+
+белый цвет текста
+
+выстроить в ряд через флекс
+повернуть ось в столбик
+центрировать по вертикали и горизонтали
+*/
+.header__content {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* 
+обратится к классу .header__desk 
+
+внешний отступ 40 на 0
+размер текста 1.5рем
+высота строки 150%
+*/
+.header__desk {
+    margin: 40px 0;
+    font-size: 1.5rem;
+    line-height: 150%;
+}
+
+
+/* 
+обратится к классу .header__btn
+
+цвет текста #ed4c5c
+цвет фона белый
+
+расширить изнутри 16 на 50
+закруглить на 6пик
+убрать фон
+*/
+.header__btn {
+    color: #ed4c5c;
+    padding: 16px 50px;
+    background-color: white;
+    border-radius: 6px;
+    border: none;
+}

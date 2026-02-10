@@ -1,0 +1,107 @@
+/* 
+обратится к классу program
+
+выстроить в ряд через флекс
+прижать по углам по горизонтали
+центрировать по вертикали
+
+внешний отступ сверху 90пик
+*/
+.program {
+  display: flex;
+  height: 70vh;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 90px;
+}
+
+
+/* 
+обратится к классу program__content
+
+сократить ширину до 40%
+выстроить в ряд через флекс
+повернуть ось в столбик
+центрировать по вертикали
+*/
+.program__content {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+
+/* 
+обратится к классу .program__text
+
+внешний отступ 30 на 0
+*/
+.program__text {
+  margin: 30px 0;
+}
+
+
+/* 
+обратится к классу .program__link
+
+цвет текста #ed4c5c
+убрать нижнее подчеркивание
+*/
+.program__link {
+  color: #ed4c5c;
+  text-decoration: none;
+}
+
+
+/* 
+обратится к классу program__video
+
+поставить картинку на фон
+сократить ширину до 50%
+закргулить на 6пик
+высота 310пик
+*/
+.program__video {
+  background: url(../img/Video_bg.png) center/cover no-repeat;
+  width: 50%;
+  border-radius: 6px;
+  height: 310px;
+}
+
+
+/* 
+обратится к классу .ellips
+
+цвет фона #ed4c5c
+превратить в круг
+высота и ширина 66пик
+
+включить относительное позиционирование
+опустить на 50%
+сдвинуть влевло на -5%
+*/
+.ellips {
+  background-color: #ed4c5c;
+  border-radius: 50%;
+  width: 66px;
+  height: 66px;
+  position: relative;
+  top: 40%;
+  left: -5%;
+}
+
+
+/* 
+обратится к классу .ellips img
+
+вытащить из очереди через абсолютное позиционирование
+опустить и сдвинуть слева-направо на 50%
+центрировать центр через транслейт
+*/
+.ellips img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

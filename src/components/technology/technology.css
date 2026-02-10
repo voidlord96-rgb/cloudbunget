@@ -1,0 +1,38 @@
+.technology {
+  height: 60vh;
+}
+.technology__title {
+  text-align: center;
+  margin: 56px 0;
+}
+.technology__cards {
+  display: flex;
+  justify-content: space-between;
+}
+.technology__card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: url(../img/01.png) top/40% no-repeat;
+  height: 246px;
+}
+
+.technology__card:nth-of-type(2) {
+  background: url(../img/02.png) top/40% no-repeat;
+}
+.technology__card:nth-of-type(3) {
+  background: url(../img/03.png) top/40% no-repeat;
+}
+.technology__card:nth-of-type(4) {
+  background: url(../img/04.png) top/40% no-repeat;
+}
+.technology__card-img {
+  margin-bottom: 10px;
+}
+
+.technology__card-desc {
+  width: 60%;
+  text-align: center;
+  margin-top: 20px;
+}

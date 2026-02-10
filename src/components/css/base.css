@@ -1,0 +1,49 @@
+/* импортировать шрифт */
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+
+
+/* написать базовые стили */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+}
+
+/* написать исходные стили для текста */
+html {
+  font-size: 12px;
+}
+
+h1 {
+  font-size: 5rem;
+  line-height: 5rem;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 2.5rem;
+  line-height: 2.5rem;
+  font-weight: 700;
+}
+
+h3 {
+  font-size: 1.5rem;
+  line-height: 1.5rem;
+  font-weight: 700;
+}
+
+p {
+  font-size: 1rem;
+  line-height: 1rem;
+  font-weight: 400;
+}
+
+/* создать контейнер */
+.container {
+  max-width: calc(1440px - 332px);
+  width: 100%;
+  margin: 0 auto;
+}
+
+

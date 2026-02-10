@@ -1,0 +1,36 @@
+.contact {
+  padding-top: 100px;
+  display: flex;
+  align-items: center;
+}
+.contact__container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.contact__content-title {
+  margin-bottom: 56px;
+}
+.contact__content-text {
+  width: 70%;
+}
+.contact__form {
+  display: flex;
+  flex-direction: column;
+}
+.contact__form input,
+select {
+  margin-bottom: 24px;
+  padding: 20px;
+  border-radius: 6px;
+}
+.contact__form-name {
+  margin-right: 30px;
+}
+.contact__form-btn {
+  border: none;
+  width: 160px;
+  background-color: #ed4c5c;
+  color: white;
+  border-radius: 6px;
+}

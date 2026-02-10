@@ -1,0 +1,129 @@
+
+/* 
+Обратится к навигации
+
+выстроить в ряд через флекс
+прижать по углам по горизонтали
+центрировать по вертикали
+
+расширить изнутри 20 на 0
+белый цвет текста
+
+зафиксировать
+прижать к верхнему углу
+сдвинуть справа-налево на 50%
+центрировать по горизонтали через транслейт
+
+поставить на 1000 слоев выше
+*/
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+  color: white;
+  position: fixed;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1000;
+}
+
+
+/* 
+Обратится к классу .navigation__logo
+
+выстроить в ряд через флекс
+центрировать по вертикали
+*/
+.navigation__logo {
+  display: flex;
+  align-items: center;
+}
+
+
+/* 
+Обратится к классу .navigation__logo a
+
+белый цвет текста
+убрать нижнее подчеркивание
+размер текста 1рем
+сделать все буквы заглавными
+внешний отступ слева 4пик
+*/
+.navigation__logo a {
+  color: white;
+  text-decoration: none;
+  font-size: 1rem;
+  text-transform: uppercase;
+  margin-left: 4px;
+}
+
+
+/* 
+Обратится к классу .buttons
+
+белый цвет текста
+убрать нижнее подчеркивание
+внешний отступ слева 12пик
+сделать все буквы заглавными
+*/
+.buttons {
+  color: white;
+  text-decoration: none;
+  margin-left: 12px;
+  text-transform: uppercase;
+}
+
+
+
+/* 
+Обратится к классу .navigation__extra
+
+выстроить в ряд через флекс
+*/
+.navigation__extra {
+  display: flex;
+}
+
+
+
+/* Обратится к классу .navigation__lang
+
+выстроить в ряд через флекс
+центрировать по вертикали
+внешний отступ 0 на 20пик
+*/
+.navigation__lang {
+  display: flex;
+  align-items: center;
+  margin: 0 20px;
+}
+
+
+/* 
+Обратится к классу .navigation__lang p
+
+внешний отступ 0 на 6пик
+*/
+.navigation__lang p {
+  margin: 0 6px;
+}
+
+
+
+/* 
+Обратится к классу .navigation__login
+
+белый цвет текста
+убрать фон
+расширить изнутри 12пик на 28пик
+закргулить на 6пик
+*/
+.navigation__login {
+  color: white;
+  background: none;
+  padding: 12px 28px;
+  border: 2px solid white;
+  border-radius: 6px;
+}

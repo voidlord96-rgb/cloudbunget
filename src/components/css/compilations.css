@@ -1,0 +1,11 @@
+/* 
+импортировать 8 css-файлов
+*/
+@import url(../navigation/navigation.css);
+@import url(../header/header.css);
+@import url(../program/program.css);
+@import url(../features/features.css);
+@import url(../technology/technology.css);
+@import url(../saving-money/saving-money.css);
+@import url(../contact/contact.css);
+@import url(../footer/footer.css);
