@@ -1,28 +1,3 @@
-/*
-импортировать 3 картинки
-
-
-создать компонент для навигации:
- - добавить навигацию с классами container navigation:
-
- - создать див с классом navigation__logo:
-    - добавить картинку
-    - добавить ссылку 
-
-  - создать див с классом navigation__button:
-    - добавить 5 ссылок с общим классом buttons
-
-  - создать див с классом navigation__extra:
-    - создать див с классом navigation__lang:
-      - добавить картинку
-      - добавить параграф
-      - добавить картинку
-
-    - добавить кнопку с классом navigation__login
-
-
-    Импортировать по умолчанию компонент
-*/
 import vector from "../img/Vector.png";
 import frame1 from "../img/Frame 1.png";
 import vector1 from "../img/Vector (1).png";
