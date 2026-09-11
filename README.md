@@ -1,70 +1,100 @@
-# Getting Started with Create React App
+# CloudBudget
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Лендинг сервиса для управления личным бюджетом, разработанный на React. Проект реализует современный одностраничный интерфейс с навигацией, презентацией возможностей сервиса, технологическими преимуществами, блоком о мобильном использовании и контактной формой.
 
-## Available Scripts
+## О проекте
 
-In the project directory, you can run:
+* Главная страница сервиса CloudBudget.
+* Навигация по основным разделам сайта.
+* Главный экран с описанием сервиса, стоимостью и кнопкой регистрации.
+* Секция с описанием программного обеспечения для управления бюджетом.
+* Блок с основными возможностями сервиса.
+* Секция с технологиями и дополнительными возможностями.
+* Блок с преимуществами контроля расходов и экономии средств.
+* Визуальная галерея интерфейса сервиса.
+* Контактная форма для связи с командой поддержки.
+* Footer с адресом, услугами, контактами, социальными сетями и информацией о поддержке.
 
-### `npm start`
+## Реализованные темы
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+* Компонентная архитектура React.
+* Разделение страницы на отдельные компоненты.
+* Создание переиспользуемых UI-секций.
+* JSX-разметка.
+* Импорт и использование изображений в React.
+* Создание навигационного меню.
+* Создание карточек преимуществ и технологий.
+* Создание контактной формы.
+* Работа с `input`, `select`, `button` и `form`.
+* Организация структуры страницы через компоненты.
+* Разделение CSS-стилей по отдельным компонентам.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Структура компонентов
 
-### `npm test`
+* `App` — главный компонент, объединяющий все секции страницы.
+* `Navigation` — верхняя навигация, логотип, меню, язык и кнопка авторизации.
+* `Header` — главный экран с описанием сервиса и CTA-кнопкой.
+* `Program` — описание программного обеспечения для управления бюджетом.
+* `Feature` — карточки основных возможностей сервиса.
+* `Technology` — блок с технологиями и дополнительными возможностями.
+* `SavingMoney` — преимущества контроля расходов и блок визуального контента.
+* `Contact` — контактная форма.
+* `Footert` — нижняя часть сайта с контактной информацией и ссылками.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Технологии
 
-### `npm run build`
+* **React** — компонентная разработка интерфейса.
+* **JavaScript** — логика приложения.
+* **JSX** — создание UI-разметки.
+* **HTML** — структура элементов страницы и формы.
+* **CSS** — стилизация и визуальное оформление.
+* **Vite** — сборка и запуск проекта.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Цель проекта
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Практика создания полноценного одностраничного React-сайта на основе готового дизайна с использованием компонентной архитектуры, JSX, CSS, форм и графических ресурсов.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Дизайн
 
-### `npm run eject`
+[Открыть макет проекта в Figma](https://www.figma.com/design/xYqlnN5At4YJ4Yb6hR0iRj/CloudBudget-Freebie--Copy-?node-id=0-1&t=VAJN0WTafFyjVaT4-1)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Скриншот
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<details>
+<summary><strong>Скриншот проекта</strong></summary>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+![CloudBudget](./CloudBudget.jpg)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+</details>
 
-## Learn More
+## Запуск проекта
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### 1. Клонирование репозитория
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```bash
+git clone https://github.com/voidlord96-rgb/cloudbunget.git
+```
 
-### Code Splitting
+### 2. Переход в папку проекта
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+```bash
+cd cloudbunget
+```
 
-### Analyzing the Bundle Size
+### 3. Установка зависимостей
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+```bash
+npm install
+```
 
-### Making a Progressive Web App
+### 4. Запуск проекта
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+```bash
+npm run dev
+```
 
-### Advanced Configuration
+После запуска откройте адрес, который Vite покажет в терминале, обычно:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+```text
+http://localhost:5173/
+```
